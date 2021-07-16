@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>ALL IN ONE mOvIe</title>
+ <style>
+  body {
+   background-image: url("FB.jpg");
+   padding: 30px;
+  }
+  
+ </style>
+ <script>
+  function checkPassword() {
+   var password = document.getElementById("passwordBox");
+   var passwordText = password.value;
+   if(passwordText == "LAPA LAPA") {
+    return true;
+   }
+   alert("Access denied! Incorrect password!");
+   return false;
+   }
+ </script>
+</head>
+<body>
+ <p style="font-size: 50pt;">ALL IN ONE MOVIE</p>
+ <p><h3>Please enter the password to view this website</h3></p>
+ <p>Password:<input id="passwordBox" type="password"/></p>
+ <a href="mont.html" onclick="return checkPassword();">
+  Click oThRsS
+ </a>
+</body>
+</html>
